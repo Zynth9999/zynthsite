@@ -1,0 +1,51 @@
+img {
+  border-radius: 5vw;
+}
+body {
+  background-color: black;
+}
+div {
+  width: 75%;
+  height: 95%;
+}
+a {
+
+  font-family: monospace, "lucidia console", "sans-serif";
+  text-shadow: 0 0 1px #FF00FF;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 2vw;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+h1 {
+  font-family: monospace, "lucidia console", "sans-serif";
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  font-size: 4vw;
+  text-decoration: none;
+}
+h3 {
+  font-family: monospace, "lucidia console", "sans-serif";
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  font-size: 1vw;
+  text-decoration: none;
+}
+.blinking{
+  animation:blinkingText 1.5s infinite;
+  color: white;
+  font-family: monospace, "lucidia console", "sans-serif";
+  font-size: 16px;
+  font-size: 2vw;
+}
+@keyframes blinkingText{
+  0%{color:#FFF;}
+  49%{color:#FFF;}
+  60%{color:transparent;}
+  99%{color:transparent;}
+  100%{color:#FFF;}
+}
